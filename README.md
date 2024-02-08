@@ -6,7 +6,7 @@ Visit web https://saepulfariz.github.io/quiz_array/
 # DOCUMENTASI VIDEO
 
 1. Part 1 https://www.youtube.com/watch?v=BlUBsJNUJ0U
-2. Part 2
+2. Part 2 https://www.youtube.com/watch?v=hRR0TvkrPlQ
 
 # IMPLEMENTASI
 
