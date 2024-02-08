@@ -32,10 +32,10 @@ if (isset($_POST['submit'])) {
     </div>
     <div class="row">
       <div class="col">
-        <img src="soal/1.jpg" alt="">
+        <img src="../soal/1.jpg" alt="">
       </div>
       <div class="col">
-        <img src="soal/2.jpg" alt="">
+        <img src="../soal/2.jpg" alt="">
       </div>
     </div>
     <hr>
