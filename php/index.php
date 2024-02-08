@@ -18,29 +18,30 @@ if (isset($_POST['submit'])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QUIZ</title>
+  <title>QUIZ ARRAY</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="container mb-3">
-    <div class="row mt-2">
-      <div class="col">
-        <h1 class="text-center">QUIZ | Saepulfariz</h1>
-        <hr>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col bg-warning pt-1">
+        <h3 class="text-center">QUIZ | Saepulfariz</h3>
       </div>
     </div>
+  </div>
+  <div class="container mb-3 mt-2">
     <div class="row">
-      <div class="col">
-        <img src="../soal/1.jpg" alt="">
+      <div class="col-md-6">
+        <img class="w-100" src="../soal/1.jpg" alt="">
       </div>
-      <div class="col">
-        <img src="../soal/2.jpg" alt="">
+      <div class="col-md-6">
+        <img class="w-100" src="../soal/2.jpg" alt="">
       </div>
     </div>
     <hr>
     <div class="row">
-      <div class="col">
+      <div class="col-md-6">
         <table class="table table-bordered text-center">
           <thead>
             <tr>
@@ -61,7 +62,7 @@ if (isset($_POST['submit'])) {
           </tbody>
         </table>
       </div>
-      <div class="col">
+      <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <form action="" method="post">
@@ -90,7 +91,7 @@ if (isset($_POST['submit'])) {
                   <div class="col text-center">
 
                     <p>Anda membeli <b><?= $data_select['paket']; ?></b>, dengan waktu <b><?= $y; ?></b> bulan. <br>
-                      Yang harus di bayar = <b><?= $total; ?></b></p>
+                      Yang harus di bayar = <b><?= number_format($total, 0); ?></b></p>
                   </div>
                 </div>
 
